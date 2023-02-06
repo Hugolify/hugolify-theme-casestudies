@@ -1,3 +1,3 @@
-module github.com/sebousan/hugolify-theme-casestudies
+module github.com/hugolify/hugolify-theme-casestudies
 
 go 1.19
