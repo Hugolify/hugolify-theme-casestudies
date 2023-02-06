@@ -1,0 +1,10 @@
+params:
+  casestudies:
+    thumbnail:
+      desktop: "414x177"
+      mobile: "300x129"
+      scrollsnap: "240x103"
+    image:
+      desktop: "856x"
+      mobile: "300x"
+  
