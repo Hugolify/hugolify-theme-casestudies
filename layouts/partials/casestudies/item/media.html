@@ -1,16 +1,13 @@
-{{ $desktop := site.Params.casestudies.thumbnail.desktop | default false }}
-{{ $mobile := site.Params.casestudies.thumbnail.mobile | default false }}
-{{ if .Scratch.Get "scrollsnap" }}
-  {{ $mobile = site.Params.casestudies.thumbnail.scrollsnap | default false }}
-{{ end }}
-<div class="media">
-  {{ with .Params.image}}
-    {{ partial "commons/image.html" (dict
-      "src" .src
-      "alt" .alt
+{{- $desktop := site.Params.casestudies.thumbnail.desktop | default false -}}
+{{- $mobile := site.Params.casestudies.thumbnail.mobile | default false -}}
+{{- if .Scratch.Get "large" -}}
+  {{- $desktop = site.Params.casestudies.thumbnail.desktop_large | default $desktop -}}
+{{- end -}}
+{{- if .Scratch.Get "scrollsnap" -}}
+  {{- $mobile = site.Params.casestudies.thumbnail.scrollsnap | default false -}}
+{{- end -}}
+{{ partial "commons/item/media.html" (dict
+      "context" .
       "desktop" $desktop
       "mobile" $mobile
-      "itemprop" "image"
     ) }}
-  {{ end }}
-</div>
