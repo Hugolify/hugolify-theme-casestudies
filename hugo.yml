@@ -13,7 +13,8 @@ module:
 params:
   admin:
     collections:
-      casestudies: true
+      casestudies:
+        enable: true
   casestudies:
     thumbnail:
       desktop: '416x179'
