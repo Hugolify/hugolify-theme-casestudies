@@ -28,3 +28,5 @@ params:
 permalinks:
   page:
     casestudies: /case-studies/:slug/
+  section:
+    casestudies: /case-studies/
