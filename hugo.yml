@@ -15,6 +15,8 @@ params:
     collections:
       casestudies:
         enable: true
+        icon: 
+          sveltiacms: amp_stories
   casestudies:
     thumbnail:
       desktop: '416x179'
@@ -24,4 +26,5 @@ params:
 
 # Default
 permalinks:
-  casestudies: /case-studies/:slug/
+  page:
+    casestudies: /case-studies/:slug/
