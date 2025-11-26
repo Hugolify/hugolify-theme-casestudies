@@ -19,7 +19,12 @@ params:
           - field: isIndex
             value: false
         icon: 
-          sveltiacms: amp_stories
+          bootstrap_icons: journals
+          iconoir: book-stack
+          material_icons: web_stories
+          material_symbols: web_stories
+          lucide: notebook
+          sveltiacms: dictionary # legacy
   casestudies:
     thumbnail:
       desktop: '416x179'
