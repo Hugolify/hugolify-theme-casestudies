@@ -1,0 +1,12 @@
+/* css/modules/casestudies.css: hugolify-theme-casestudies entry point */
+
+/* Tokens */
+@import '../tokens/casestudies.css';
+
+/* Components */
+@import '../components/casestudy.css';
+@import '../components/casestudies.css';
+
+/* Pages */
+@import '../pages/casestudy.css';
+@import '../pages/casestudies.css';
