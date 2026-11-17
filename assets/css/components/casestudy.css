@@ -1,0 +1,7 @@
+/* components/casestudy.css */
+/*
+ * .casestudy remaps the full --item-* API (and the inner --btn-*) onto its
+ * --casestudy-* tokens, so any value can be tuned from casestudy.json without
+ * touching this file.
+ * Usage: <article class="item casestudy">
+ */

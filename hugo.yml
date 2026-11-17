@@ -11,6 +11,8 @@ module:
     - source: layouts
       target: layouts
 params:
+
+  # Hugolify admin
   admin:
     collections:
       casestudies:
@@ -18,19 +20,20 @@ params:
         filter:
           - field: isIndex
             value: false
-        icon: 
+        icon:
           bootstrap_icons: journals
           iconoir: book-stack
+          lucide: notebook
           material_icons: web_stories
           material_symbols: web_stories
-          lucide: notebook
-          sveltiacms: dictionary # legacy
+
+  # Image
   casestudies:
     thumbnail:
       desktop: '416x179'
-      desktop_large: '636x273'
       mobile: '300x129'
       scrollsnap: '240x103'
+      sizes: 100vw, 50vw, 33vw
 
 # Default
 permalinks:

@@ -1,0 +1,12 @@
+/* components/casestudies.css */
+/*
+ * .casestudies remaps the full --items-* API onto its --casestudies-* tokens,
+ * so any value can be tuned from casestudies.json without touching this file.
+ * Usage: <div class="items casestudies">
+ */
+@layer components {
+  .casestudies {
+    --items-min-width: var(--casestudies-min-width);
+    --items-nav-margin-block-start: var(--casestudies-nav-margin-block-start);
+  }
+}

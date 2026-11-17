@@ -1,0 +1,9 @@
+/* Do not edit directly, this file was auto-generated. */
+
+/* casestudies.css */
+@layer tokens {
+  :root {
+    --casestudies-min-width: var(--max-width-item);
+    --casestudies-nav-margin-block-start: var(--spacing-fluid-md);
+  }
+}
