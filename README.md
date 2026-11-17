@@ -6,7 +6,8 @@ Edit `config/_default/module.yaml` to install the `hugolify-theme-casestudies` m
 
 ```yml
 imports:
-  - path: github.com/hugolify/hugolify-theme-casestudies
+  - path: github.com/hugolify/hugolify-theme-casestudies/v2
+  - path: github.com/hugolify/hugolify-theme/v2 # required
 ```
 
 ## Documentation
