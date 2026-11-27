@@ -22,6 +22,7 @@ params:
             value: false
         icon:
           bootstrap_icons: journals
+          hugeicons: Notebook01
           iconoir: book-stack
           lucide: notebook
           material_icons: web_stories
